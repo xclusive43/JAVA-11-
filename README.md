@@ -1,2 +1,2 @@
-# JAVA-11-
+# JAVA 11
 Exploring new features of JAVA 11
