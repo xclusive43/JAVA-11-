@@ -11,14 +11,14 @@ public class localVariableSyntax { // implements demoInterface{ //traditional ap
                        // variable we can use var for local variable
 
         /*** Lambda syntax to implement the interface class demoInterface */
-        demoInterface object1 = (int a, int b) -> a+b; //traditional data type declaration for local variable
+        demoInterface object1 = (int a, int b) -> a + b; // traditional data type declaration for local variable
 
-        demoInterface object2 = (var a, var b) -> a+b; // Local Variable Syntax for Lambda Parameters
+        demoInterface object2 = (var a, var b) -> a + b; // Local Variable Syntax for Lambda Parameters
 
         // demoInterface object2 = (var a, int b) -> a+b; // invalid expression
 
-       System.out.println("from Object 1 "+ object1.add(12, 31));
-       System.out.println("from Object 2 "+ object2.add(10, 31));
+        System.out.println("from Object 1 " + object1.add(12, 31));
+        System.out.println("from Object 2 " + object2.add(10, 31));
     }
 
 }
